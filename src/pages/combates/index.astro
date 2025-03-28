@@ -13,17 +13,20 @@ import { combates } from '@/consts/pageTitles'
 
     <div class="flex w-full flex-col items-center text-center">
       <div id="landing" class="absolute top-0 flex w-full flex-col items-center py-30">
-        <figure class="animate-fade-in relative -mt-10">
-          <img
-            class="relative z-20 h-auto w-48"
-            src="/images/logo.png"
-            fetchpriority="high"
-            alt="La Velada del Año V"
-            decoding="async"
-          />
-          <div class="absolute top-0 z-0 size-64 bg-pink-400/80 blur-2xl"></div>
-        </figure>
-
+        <a
+        href="/"
+        class="mx-auto hover:scale-105 cursor-pointer transition-transform duration-500 relative top-6">
+          <figure class="animate-fade-in relative -mt-10">
+            <img
+              class="relative z-20 h-auto w-48"
+              src="/images/logo.png"
+              fetchpriority="high"
+              alt="La Velada del Año V"
+              decoding="async"
+            />
+            <div class="absolute top-0 z-0 h-64 w-64 bg-pink-400/80 blur-2xl transition-transform duration-500 hover:scale-110"></div>        
+          </figure>
+        </a>
         <div>
           <h3
             class="text-theme-seashell animate-fade-in animate-delay-300 mt-4 -skew-3 text-6xl leading-[100%] font-medium [text-shadow:_5px_5px_10px_rgb(0_0_0_/_40%)]"
